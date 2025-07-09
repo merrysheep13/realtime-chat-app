@@ -1,8 +1,6 @@
 # React Real-Time Chat App
 
-<p align="center">
-    <img src="http://git-assets.react-starter-kit.com/logo.png">  
-</p>
+There 's no img now!
 
 ### [Online Demo](https://react-chatapp-frontend.herokuapp.com)
 
