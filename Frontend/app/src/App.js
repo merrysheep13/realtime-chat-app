@@ -15,11 +15,7 @@ class App extends Component {
     }
   }
 
-  componentDidMount() {
-    this.setState({
-      site_loaded: true
-    });
-  }
+
   useEffect(()=>{
   
   });
