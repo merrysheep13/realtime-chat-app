@@ -20,6 +20,9 @@ class App extends Component {
       site_loaded: true
     });
   }
+  useEffect(()=>{
+  
+  });
 
   render() {
     return (
