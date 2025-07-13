@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const http = require('http');
 const socketIO = require('socket.io');
+const cors = require("cors);
 
 const { generateMessage, generateLocationMessage } = require('./utils/message.js');
 const { isRealString } = require('./utils/validation');
@@ -11,6 +12,7 @@ const PORT = process.env.PORT || 8080;
 
 const app = express();
 const server = http.createServer(app);
+app.use(cors);
 app.use(express.static(publicPath));
 
 var io = socketIO(server);
