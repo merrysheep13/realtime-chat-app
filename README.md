@@ -1,6 +1,5 @@
 # React Real-Time Chat App
 
-There 's no img now!
 
 ### [Online Demo](https://react-chatapp-frontend.herokuapp.com)
 
